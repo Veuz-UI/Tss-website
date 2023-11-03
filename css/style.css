@@ -253,6 +253,22 @@ a{
     color: #fff;
    }
 
+   .btn3{
+    border: 1px solid #ebebeb;
+    color: #282A39;
+    padding: 5px 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    transition: 1s;
+   }
+   .btn3:hover{
+    background-color: #F5F5F5;
+    transition: 1s;
+   }
+
 /* ********* */
 
 .nav-box{
@@ -817,6 +833,7 @@ a{
     border-radius: 10px;
     display: flex;
     margin-bottom: 25px;
+    border: 1px solid #ebebeb;
 }
 
 .event-div .event-box1{
@@ -848,6 +865,12 @@ a{
     display: flex;
     align-items: center;
     gap: 6px;
+}
+
+.event-box2 .event-info h5 span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .event-box3{
@@ -1393,3 +1416,147 @@ footer .nav-section-2 li{
         padding: 0px 15px;
     }
  }
+
+  /* inner banner */
+.inner-banner .background-video{
+    height: 45vh;
+    background-position: center;
+}
+
+.inner-banner .home-main-cntnt {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    transform: none;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner .home-main-cntnt h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+ /* event page */
+
+ .event-filter{
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 10%);
+}
+
+.event-filter .input-search{
+    position: relative;
+    padding: 30px 30px 25px;
+}
+
+.input-search input{
+    border-color: #ebebeb;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+}
+
+.input-search input::placeholder{
+    font-weight: 300;
+}
+
+.input-search svg{
+    position: absolute;
+    top: 41%;
+    right: 43px;
+}
+
+.filter-box{
+    border-top: 1px solid #ebebeb;
+    padding: 15px 30px;
+}
+
+.filter-box h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.filter-box h6{
+    font-size: 13.5px;
+    color: #A0A0A0;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.country-list{
+    padding: 10px 0px 5px;
+    height: 205px;
+    overflow-y: auto;
+}
+
+.filter-box label{
+    color: #666666;
+    font-size: 14px;
+}
+
+.industry-list{
+    padding: 10px 0px 5px;
+    height: 355px;
+    overflow-y: auto;
+}
+
+.filter-box button{
+    margin-top: 10px;
+}
+
+.event-page .event-box1 img{
+    width: 70%;
+}
+
+.event-page .event-box1{
+    width: 13%;
+}
+
+.event-page .event-box2{
+    width: 40%;
+    padding: 20px;
+}
+
+.event-page .event-box3{
+    width: 18%;
+}
+
+.event-page .event-box4{
+    width: 12%;
+}
+
+.event-page .event-box5{
+    width: 17%;
+}
+
+.event-page .event-box2 .event-info h5 {
+    font-size: 14px;
+}
+
+.event-page .event-box2 .event-info h3 {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.event-page .event-box3 .event-tym h6 {
+    font-size: 13px;
+}
+
+.event-page .event-box4 .location img {
+    width: 30px;
+}
+
+.event-box4 .location h6 {
+    font-size: 14px;
+}
+
+.event-page .main-home-btn {
+    height: 38px;
+    padding: 0px 30px;
+}
+
+.event-page .event-div{
+    margin-bottom: 18px;
+}
